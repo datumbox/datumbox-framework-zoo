@@ -1,0 +1,9 @@
+ClassificationMetrics:
+accuracy=0.7850000000000001
+macroPrecision=0.7828760800329988
+macroRecall=0.7847020410655209
+macroF1=0.7814014460712685
+microPrecision={educational=0.7922762008575903, noneducational=0.7734759592084071}
+microRecall={educational=0.7764638755634728, noneducational=0.7929402065675687}
+microF1={educational=0.7821884630481581, noneducational=0.7806144290943787}
+contingencyTable={[educational, FALSE_POSITIVE]=6.1, [educational, FALSE_NEGATIVE]=6.8, [educational, TRUE_POSITIVE]=23.200000000000003, [educational, TRUE_NEGATIVE]=23.900000000000002, [noneducational, FALSE_POSITIVE]=6.8, [noneducational, TRUE_NEGATIVE]=23.200000000000003, [noneducational, FALSE_NEGATIVE]=6.1, [noneducational, TRUE_POSITIVE]=23.900000000000002}
