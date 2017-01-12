@@ -41,20 +41,20 @@ How to use
 
 1. Download/clone this project locally. 
 2. Open your datumbox.configuration.properties file and make sure you use the InMemory engine by default:
-```
-configuration.storageConfiguration=com.datumbox.framework.storage.inmemory.InMemoryConfiguration
-```
+    ```
+    configuration.storageConfiguration=com.datumbox.framework.storage.inmemory.InMemoryConfiguration
+    ```
 3. Open your datumbox.inmemoryconfiguration.properties file and update the output directory:
-```
-inMemoryConfiguration.outputDirectory=/path/to/datumbox-framework-zoo
-```
+    ```
+    inMemoryConfiguration.outputDirectory=/path/to/datumbox-framework-zoo
+    ```
 4. Within your project initialize the classifiers using their name:
-```java
-Configuration configuration = Configuration.getConfiguration();
-
-TextClassifier textClassifier = MLBuilder.load(TextClassifier.class, "SentimentAnalysis", configuration);
-System.out.println(textClassifier.predict("Datumbox is amazing!"));
-```
+    ```java
+    Configuration configuration = Configuration.getConfiguration();
+    
+    TextClassifier textClassifier = MLBuilder.load(TextClassifier.class, "SentimentAnalysis", configuration);
+    System.out.println(textClassifier.predict("Datumbox is amazing!"));
+    ```
 
 Note that it is also possible to skip steps 2 & 3 and instead programmatically update the configuration object before initializing the classifier:
 
