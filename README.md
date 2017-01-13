@@ -30,9 +30,9 @@ The project contains the binary files of all the text classification models whic
 
 **Important Notes:**
 
-- The models only support English.
+- The models support only English.
 - The binary files should be loaded using their corresponding Framework version.
-- All the models are trained using the InMemory storage engine.
+- All the models should be loaded using the InMemory storage engine.
 - Within the folder of each model you will find a stats.txt file which contains the accuracy metrics of the classifier. The metrics were estimated using 10-fold cross validation.
 - All the remaining API methods which are not included here (Readability Assessment, Keyword Extraction, Text Extraction & Document Similarity) are directly powered up by standalone classes of the [framework](https://github.com/datumbox/datumbox-framework/).
 
