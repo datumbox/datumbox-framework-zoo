@@ -1,5 +1,5 @@
-Datumbox Framewok Zoo: Pre-trained models
-=========================================
+Datumbox Framework Zoo: Pre-trained models
+==========================================
 
 [![Datumbox](http://www.datumbox.com/img/logo.png)](http://www.datumbox.com/)
 
