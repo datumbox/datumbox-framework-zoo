@@ -53,7 +53,7 @@ How to use
     Configuration configuration = Configuration.getConfiguration();
     
     TextClassifier textClassifier = MLBuilder.load(TextClassifier.class, "SentimentAnalysis", configuration);
-    System.out.println(textClassifier.predict("Datumbox is amazing!"));
+    System.out.println(textClassifier.predict("Datumbox is amazing!").getYPredicted());
     ```
 
 Note that it is also possible to skip steps 2 & 3 and instead programmatically update the configuration object before initializing the classifier:
