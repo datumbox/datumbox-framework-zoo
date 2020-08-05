@@ -3,12 +3,12 @@ Datumbox Framework Zoo: Pre-trained models
 
 [![Datumbox](http://www.datumbox.com/img/logo.png)](http://www.datumbox.com/)
 
-This project contains pre-trained Machine Learning models which can be used with the [Datumbox Machine Learning Framework](https://github.com/datumbox/datumbox-framework/) v0.8.2-SNAPSHOT (Build 20191016).
+This project contains pre-trained Machine Learning models which can be used with the [Datumbox Machine Learning Framework](https://github.com/datumbox/datumbox-framework/) v0.8.2 (Build 20200805).
 
 Copyright & License
 -------------------
 
-Copyright (c) 2013-2019 [Vasilis Vryniotis](http://blog.datumbox.com/author/bbriniotis/). 
+Copyright (c) 2013-2020 [Vasilis Vryniotis](http://blog.datumbox.com/author/bbriniotis/). 
 
 Licensed under the [Apache License, Version 2.0](./LICENSE).
 
