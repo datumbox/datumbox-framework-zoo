@@ -26,7 +26,6 @@ The project contains the binary files of all the text classification models whic
 - [Language Detection](./LanguageDetection): The Language Detection model identifies the natural language of the given document based on its words and context. This classifier is able to detect 96 different languages.
 - [Commercial Detection](./CommercialDetection): The Commercial Detection model labels the documents as commercial or non-commercial based on their keywords and expressions. It can be used to detect whether a website is commercial or not.
 - [Educational Detection](./EducationalDetection): The Educational Detection model classifies the documents as educational or non-educational based on their context. It can be used to detect whether a website is educational or not.
-- [Gender Detection](./GenderDetection): The Gender Detection model identifies if a particular document is written-by or targets-to a man or a woman based on the context, the words and the idioms found in the text.
 
 **Important Notes:**
 
